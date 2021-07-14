@@ -1,5 +1,12 @@
 [
   {
+    "title": "1&1",
+    "path": "oneandone",
+    "repo": "hashicorp/packer-plugin-oneandone",
+    "pluginTier": "community",
+    "version": "latest"
+  },
+  {
     "title": "Alicloud",
     "path": "alicloud",
     "repo": "hashicorp/packer-plugin-alicloud",
@@ -62,6 +69,12 @@
     "title": "Google Cloud Platform",
     "path": "googlecompute",
     "repo": "hashicorp/packer-plugin-googlecompute",
+    "version": "latest"
+  },
+  {
+    "title": "HashiCups",
+    "path": "hashicups",
+    "repo": "hashicorp/packer-plugin-hashicups",
     "version": "latest"
   },
   {
@@ -156,6 +169,13 @@
     "version": "latest"
   },
   {
+    "title": "Profitbricks",
+    "path": "profitbricks",
+    "repo": "hashicorp/packer-plugin-profitbricks",
+    "pluginTier": "community",
+    "version": "latest"
+  },
+  {
     "title": "Proxmox",
     "path": "proxmox",
     "repo": "hashicorp/packer-plugin-proxmox",
@@ -179,6 +199,13 @@
     "title": "Scaleway",
     "path": "scaleway",
     "repo": "hashicorp/packer-plugin-scaleway",
+    "pluginTier": "community",
+    "version": "latest"
+  },
+  {
+    "title": "SSH Key",
+    "path": "sshkey",
+    "repo": "ivoronin/packer-plugin-sshkey",
     "pluginTier": "community",
     "version": "latest"
   },
@@ -226,6 +253,13 @@
     "title": "VMware",
     "path": "vmware",
     "repo": "hashicorp/packer-plugin-vmware",
+    "version": "latest"
+  },
+  {
+    "title": "Vultr",
+    "path": "vultr",
+    "repo": "vultr/packer-plugin-vultr",
+    "pluginTier": "community",
     "version": "latest"
   },
   {

@@ -25,11 +25,6 @@ module.exports = [
     permanent: true,
   },
   {
-    source: '/docs/templates/veewee-to-packer',
-    destination: '/guides/veewee-to-packer',
-    permanent: true,
-  },
-  {
     source: '/docs/extend/developing-plugins',
     destination: '/docs/plugins',
     permanent: true,
@@ -216,6 +211,11 @@ module.exports = [
   {
     source: '/docs/post-processors/docker-:path',
     destination: '/docs/post-processors/docker/docker-:path*',
+    permanent: true,
+  },
+  {
+    source: '/guides/hcl/from-json-v1',
+    destination: 'https://learn.hashicorp.com/tutorials/packer/hcl2-upgrade',
     permanent: true,
   },
   // disallow '.html' or '/index.html' in favor of cleaner, simpler paths

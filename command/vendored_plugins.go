@@ -46,6 +46,7 @@ import (
 	lxcbuilder "github.com/hashicorp/packer-plugin-lxc/builder/lxc"
 	lxdbuilder "github.com/hashicorp/packer-plugin-lxd/builder/lxd"
 	ncloudbuilder "github.com/hashicorp/packer-plugin-ncloud/builder/ncloud"
+	oneandonebuilder "github.com/hashicorp/packer-plugin-oneandone/builder/oneandone"
 	openstackbuilder "github.com/hashicorp/packer-plugin-openstack/builder/openstack"
 	oracleclassicbuilder "github.com/hashicorp/packer-plugin-oracle/builder/classic"
 	oracleocibuilder "github.com/hashicorp/packer-plugin-oracle/builder/oci"
@@ -55,6 +56,7 @@ import (
 	oscchrootbuilder "github.com/hashicorp/packer-plugin-outscale/builder/osc/chroot"
 	parallelsisobuilder "github.com/hashicorp/packer-plugin-parallels/builder/parallels/iso"
 	parallelspvmbuilder "github.com/hashicorp/packer-plugin-parallels/builder/parallels/pvm"
+	profitbricksbuilder "github.com/hashicorp/packer-plugin-profitbricks/builder/profitbricks"
 	proxmoxclone "github.com/hashicorp/packer-plugin-proxmox/builder/proxmox/clone"
 	proxmoxiso "github.com/hashicorp/packer-plugin-proxmox/builder/proxmox/iso"
 	puppetmasterlessprovisioner "github.com/hashicorp/packer-plugin-puppet/provisioner/puppet-masterless"
@@ -114,9 +116,11 @@ var VendoredBuilders = map[string]packersdk.Builder{
 	"lxc":                 new(lxcbuilder.Builder),
 	"lxd":                 new(lxdbuilder.Builder),
 	"ncloud":              new(ncloudbuilder.Builder),
+	"oneandone":           new(oneandonebuilder.Builder),
 	"openstack":           new(openstackbuilder.Builder),
 	"oracle-classic":      new(oracleclassicbuilder.Builder),
 	"oracle-oci":          new(oracleocibuilder.Builder),
+	"profitbricks":        new(profitbricksbuilder.Builder),
 	"proxmox":             new(proxmoxiso.Builder),
 	"proxmox-iso":         new(proxmoxiso.Builder),
 	"proxmox-clone":       new(proxmoxclone.Builder),
